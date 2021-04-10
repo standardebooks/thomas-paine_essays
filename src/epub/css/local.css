@@ -45,3 +45,7 @@ section > header [epub|type~="epigraph"] + *{
 	}
 }
 /* End epigraphs in section headers */
+
+#agrarian-justice-agrarian-justice-means-for-carrying-the-proposed-plan-into-execution-and-to-render-it-at-the-same-time-conducive-to-the-public-interest ol{
+	list-style-type: upper-roman;
+}
