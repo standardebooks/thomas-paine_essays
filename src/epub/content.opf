@@ -38,7 +38,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/31270</dc:source>
 		<!-- Common Sense -->
 		<dc:source>https://archive.org/details/writingscollecte01painuoft</dc:source>
