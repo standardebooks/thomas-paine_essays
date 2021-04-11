@@ -1,6 +1,40 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+q{
+	font-style: italic;
+}
+
+em > strong,
+q > strong{
+	font-style: normal;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+table{
+	margin: 1em auto;
+}
+
+th{
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -45,6 +79,38 @@ section > header [epub|type~="epigraph"] + *{
 	}
 }
 /* End epigraphs in section headers */
+
+#common-sense table:first-of-type > thead{
+	visibility: collapse;
+}
+
+#common-sense table:first-of-type td:last-child{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+#common-sense table:nth-of-type(2) td{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+	max-width: 8em;
+}
+
+#common-sense table:nth-of-type(2) td:first-child{
+	vertical-align: top;
+}
+
+#common-sense table:nth-of-type(2) th{
+	text-align: right;
+}
+
+#common-sense table:nth-of-type(2) > tfoot th{
+	font-style: normal;
+}
+
+#common-sense table:nth-of-type(2) > tfoot > tr:first-child > td,
+#common-sense table:nth-of-type(2) > tfoot > tr:last-child > td{
+	border-top: 1px solid;
+}
 
 #agrarian-justice-agrarian-justice-means-for-carrying-the-proposed-plan-into-execution-and-to-render-it-at-the-same-time-conducive-to-the-public-interest ol{
 	list-style-type: upper-roman;
