@@ -42,6 +42,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/31270</dc:source>
 		<!-- Common Sense -->
 		<dc:source>https://archive.org/details/writingscollecte01painuoft</dc:source>
+		<!-- Quotation in Dissertation on First Principles of Government -->
+		<dc:source>https://archive.org/details/writingscollecte02painuoft</dc:source>
 		<!-- Others -->
 		<dc:source>https://archive.org/details/writingscollecte03painuoft</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
