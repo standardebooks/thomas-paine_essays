@@ -19,6 +19,10 @@ table{
 	margin: 1em auto;
 }
 
+caption{
+	font-variant: all-small-caps;
+}
+
 th{
 	font-weight: normal;
 	font-style: italic;
@@ -110,6 +114,42 @@ section > header [epub|type~="epigraph"] + *{
 #common-sense table:nth-of-type(2) > tfoot > tr:first-child > td,
 #common-sense table:nth-of-type(2) > tfoot > tr:last-child > td{
 	border-top: 1px solid;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > thead{
+	visibility: collapse;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:nth-last-child(2){
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > tfoot td:nth-last-child(2){
+	border-top: 1px solid;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > div thead{
+	visibility: collapse;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > div td:nth-child(2){
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > div td:empty{
+	text-align: center;
+}
+
+#the-decline-and-fall-of-the-english-system-of-finance > div td:empty::before{
+	content: "\"";
+}
+
+@supports(display: flex) {
+	#the-decline-and-fall-of-the-english-system-of-finance > div{
+		display: flex;
+	}
 }
 
 #agrarian-justice-agrarian-justice-means-for-carrying-the-proposed-plan-into-execution-and-to-render-it-at-the-same-time-conducive-to-the-public-interest ol{
