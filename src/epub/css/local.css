@@ -152,6 +152,28 @@ section > header [epub|type~="epigraph"] + *{
 	}
 }
 
-#agrarian-justice-agrarian-justice-means-for-carrying-the-proposed-plan-into-execution-and-to-render-it-at-the-same-time-conducive-to-the-public-interest ol{
+#agrarian-justice table:first-of-type td:not(:last-child){
+	vertical-align: top;
+}
+
+#agrarian-justice table:first-of-type > tfoot td:not(:empty){
+	border-top: 1px solid;
+}
+
+#agrarian-justice table:nth-of-type(2) thead{
+	visibility: collapse;
+}
+
+#agrarian-justice table:nth-of-type(2) td + td{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+#agrarian-justice table:nth-of-type(2) tbody > tr:last-child > td:first-child + td,
+#agrarian-justice table:nth-of-type(2) tfoot > tr:first-child > td:last-child{
+	border-bottom: 1px solid;
+}
+
+#agrarian-justice ol{
 	list-style-type: upper-roman;
 }
