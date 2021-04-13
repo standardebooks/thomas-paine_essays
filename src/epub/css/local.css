@@ -5,6 +5,10 @@ q{
 	font-style: italic;
 }
 
+q > em{
+	font-style: normal;
+}
+
 em > strong,
 q > strong{
 	font-style: normal;
@@ -26,7 +30,7 @@ caption{
 th{
 	font-weight: normal;
 	font-style: italic;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:signature"]{
@@ -46,39 +50,23 @@ th{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 [epub|type~="epigraph"] cite{
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
 }
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"]{
+article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
-	section > header [epub|type~="epigraph"]{
+	article > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
