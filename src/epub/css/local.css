@@ -140,11 +140,15 @@ article > header [epub|type~="epigraph"]{
 	}
 }
 
-#agrarian-justice table:first-of-type td:not(:last-child){
+#agrarian-justice table:first-of-type td{
 	vertical-align: top;
 }
 
-#agrarian-justice table:first-of-type > tfoot td:not(:empty){
+#agrarian-justice table:first-of-type td:last-child{
+	vertical-align: initial;
+}
+
+#agrarian-justice table:first-of-type > tfoot td:nth-child(2n){
 	border-top: 1px solid;
 }
 
