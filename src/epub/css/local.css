@@ -144,6 +144,11 @@ section > header [epub|type~="epigraph"]{
 	vertical-align: top;
 }
 
+#agrarian-justice table:first-of-type td:nth-child(2n){
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
 #agrarian-justice table:first-of-type td:last-child{
 	vertical-align: initial;
 }
