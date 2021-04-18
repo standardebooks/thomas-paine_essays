@@ -34,9 +34,10 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85104440</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of Thomas Paine’s essays on republicanism, the problems of monarchy, and human rights.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/thomas-paine"&gt;Thomas Paine&lt;/a&gt; was an American political commentator and activist in the latter part of the eighteenth century. His writing covered a wide range of subjects, but were centered on his core beliefs of republicanism and the inherent rights of people. An early pamphlet of his, “Common Sense,” was written soon after he arrived in America from Great Britain and has been cited as one of the major catalysts for the American Revolution, with its focus on the ills of colonialism and the King veering between rational debate and righteous outrage. Later work attempted to correct the mistakes he perceived in post-revolution French government—written from experience after election to the French National Convention—and even suggested a costed plan for a universal basic income funded by inheritance tax.&lt;/p&gt;
+			&lt;p&gt;Collected here are a selected set of his essays and pamphlets written between 1776 and 1797, including the aforementioned “Common Sense” and other influential works like “The Republican Proclamation” and “Declaration of Rights.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/31270</dc:source>
@@ -46,7 +47,7 @@
 		<dc:source>https://archive.org/details/writingscollecte02painuoft</dc:source>
 		<!-- Others -->
 		<dc:source>https://archive.org/details/writingscollecte03painuoft</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">References to other volumes and specific essays not included in this collection have been rewritten. A quotation in “Dissertation on First Principles of Government,” which in the original source was a reference to an earlier volume, has been reinstated.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-paine_essays</meta>
