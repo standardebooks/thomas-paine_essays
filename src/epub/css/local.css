@@ -126,12 +126,12 @@ section > header [epub|type~="epigraph"]{
 	text-align: right;
 }
 
-#the-decline-and-fall-of-the-english-system-of-finance > div td:empty{
-	text-align: center;
+#the-decline-and-fall-of-the-english-system-of-finance > div td:last-child{
+	padding-left: 1.25em;
 }
 
-#the-decline-and-fall-of-the-english-system-of-finance > div td:empty::before{
-	content: "\"";
+#the-decline-and-fall-of-the-english-system-of-finance > div tbody > tr:first-child > td:last-child{
+	padding-left: 0;
 }
 
 @supports(display: flex){
