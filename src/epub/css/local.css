@@ -84,7 +84,7 @@ section > header [epub|type~="epigraph"]{
 #common-sense table:nth-of-type(2) td{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
-	max-width: 8em;
+	width: 9em;
 }
 
 #common-sense table:nth-of-type(2) td:first-child{
