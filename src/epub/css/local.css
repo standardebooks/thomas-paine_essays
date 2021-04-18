@@ -134,7 +134,7 @@ section > header [epub|type~="epigraph"]{
 	content: "\"";
 }
 
-@supports(display: flex) {
+@supports(display: flex){
 	#the-decline-and-fall-of-the-english-system-of-finance > div{
 		display: flex;
 	}
