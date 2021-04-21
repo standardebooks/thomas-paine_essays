@@ -72,10 +72,6 @@ section > header [epub|type~="epigraph"]{
 }
 /* End epigraphs in section headers */
 
-#common-sense table:first-of-type > thead{
-	visibility: collapse;
-}
-
 #common-sense table:first-of-type td:nth-child(2),
 #common-sense table:first-of-type td:last-child{
 	font-variant-numeric: tabular-nums;
@@ -105,10 +101,6 @@ section > header [epub|type~="epigraph"]{
 	border-top: 1px solid;
 }
 
-#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > thead{
-	visibility: collapse;
-}
-
 #the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:nth-last-child(2){
 	font-variant-numeric: tabular-nums;
 	text-align: right;
@@ -120,10 +112,6 @@ section > header [epub|type~="epigraph"]{
 
 #the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > tfoot td:nth-last-child(2){
 	border-top: 1px solid;
-}
-
-#the-decline-and-fall-of-the-english-system-of-finance > div thead{
-	visibility: collapse;
 }
 
 #the-decline-and-fall-of-the-english-system-of-finance > div td:nth-child(2){
@@ -160,10 +148,6 @@ section > header [epub|type~="epigraph"]{
 
 #agrarian-justice table:first-of-type > tfoot td:nth-child(2n){
 	border-top: 1px solid;
-}
-
-#agrarian-justice table:nth-of-type(2) thead{
-	visibility: collapse;
 }
 
 #agrarian-justice table:nth-of-type(2) td + td{
