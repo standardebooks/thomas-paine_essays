@@ -113,6 +113,10 @@ section > header [epub|type~="epigraph"]{
 	text-align: right;
 }
 
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:first-child{
+	text-align: center;
+}
+
 #the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > tfoot td:nth-last-child(2){
 	border-top: 1px solid;
 }
