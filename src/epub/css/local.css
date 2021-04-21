@@ -76,6 +76,7 @@ section > header [epub|type~="epigraph"]{
 	visibility: collapse;
 }
 
+#common-sense table:first-of-type td:nth-child(2),
 #common-sense table:first-of-type td:last-child{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
