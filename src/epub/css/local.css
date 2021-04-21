@@ -5,12 +5,8 @@ q{
 	font-style: italic;
 }
 
-q > em{
-	font-style: normal;
-}
-
-em > strong,
-q > strong{
+q > em,
+em > strong{
 	font-style: normal;
 }
 
