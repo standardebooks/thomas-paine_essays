@@ -69,18 +69,22 @@ section > header [epub|type~="epigraph"]{
 /* End epigraphs in section headers */
 
 #common-sense table:first-of-type td:nth-child(2),
-#common-sense table:first-of-type td:last-child{
+#common-sense table:first-of-type td:last-child,
+#common-sense table:nth-of-type(2) td,
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:nth-last-child(2),
+#the-decline-and-fall-of-the-english-system-of-finance > div td:nth-child(2),
+#agrarian-justice table:first-of-type td:nth-child(2n),
+#agrarian-justice table:nth-of-type(2) td + td{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
 
 #common-sense table:nth-of-type(2) td{
-	font-variant-numeric: tabular-nums;
-	text-align: right;
 	width: 9em;
 }
 
-#common-sense table:nth-of-type(2) td:first-child{
+#common-sense table:nth-of-type(2) td:first-child,
+#agrarian-justice table:first-of-type td{
 	vertical-align: top;
 }
 
@@ -93,26 +97,14 @@ section > header [epub|type~="epigraph"]{
 }
 
 #common-sense table:nth-of-type(2) > tfoot > tr:first-child > td,
-#common-sense table:nth-of-type(2) > tfoot > tr:last-child > td{
+#common-sense table:nth-of-type(2) > tfoot > tr:last-child > td,
+#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > tfoot td:nth-last-child(2),
+#agrarian-justice table:first-of-type > tfoot td:nth-child(2n){
 	border-top: 1px solid;
-}
-
-#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:nth-last-child(2){
-	font-variant-numeric: tabular-nums;
-	text-align: right;
 }
 
 #the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type td:first-child{
 	text-align: center;
-}
-
-#the-decline-and-fall-of-the-english-system-of-finance > table:first-of-type > tfoot td:nth-last-child(2){
-	border-top: 1px solid;
-}
-
-#the-decline-and-fall-of-the-english-system-of-finance > div td:nth-child(2){
-	font-variant-numeric: tabular-nums;
-	text-align: right;
 }
 
 #the-decline-and-fall-of-the-english-system-of-finance > div td:last-child{
@@ -129,26 +121,8 @@ section > header [epub|type~="epigraph"]{
 	}
 }
 
-#agrarian-justice table:first-of-type td{
-	vertical-align: top;
-}
-
-#agrarian-justice table:first-of-type td:nth-child(2n){
-	font-variant-numeric: tabular-nums;
-	text-align: right;
-}
-
 #agrarian-justice table:first-of-type td:last-child{
 	vertical-align: initial;
-}
-
-#agrarian-justice table:first-of-type > tfoot td:nth-child(2n){
-	border-top: 1px solid;
-}
-
-#agrarian-justice table:nth-of-type(2) td + td{
-	font-variant-numeric: tabular-nums;
-	text-align: right;
 }
 
 #agrarian-justice table:nth-of-type(2) tbody > tr:last-child > td:first-child + td,
