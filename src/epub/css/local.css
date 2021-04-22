@@ -68,6 +68,10 @@ section > header [epub|type~="epigraph"]{
 }
 /* End epigraphs in section headers */
 
+#anti-monarchal-essay ol li p:first-child{
+	font-style: italic;
+}
+
 #common-sense table:first-of-type td:nth-child(2),
 #common-sense table:first-of-type td:last-child,
 #common-sense table:nth-of-type(2) td,
