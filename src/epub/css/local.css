@@ -24,8 +24,8 @@ caption{
 }
 
 th{
-	font-weight: normal;
 	font-style: italic;
+	font-weight: normal;
 	text-align: initial;
 }
 
@@ -47,9 +47,9 @@ th{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
