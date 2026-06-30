@@ -1,0 +1,1 @@
+References to other volumes and specific essays not included in this collection have been rewritten. A quotation in “Dissertation on First Principles of Government,” which in the original source was a reference to an earlier volume, has been reinstated.
